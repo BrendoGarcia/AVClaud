@@ -23,17 +23,17 @@ Cria uma nova reserva.
 Corpo da requisição (application/json):
 ```bash
 {
-  "nome": "Brendo Garcia da Silva",
-  "telefone": "99686-1909",
-  "data": "2025-04-10T14:55"
+"nome": "Brendo Garcia da Silva",
+"telefone": "99686-1909",
+"data": "2025-04-10T14:55"
 }
 ```
 Resposta de sucesso (200 OK):
 ```bash
 {
-  "nome": "Brendo Garcia da Silva",
-  "telefone": "99686-1909",
-  "data": "2025-04-10T14:55"
+"nome": "Brendo Garcia da Silva",
+"telefone": "99686-1909",
+"data": "2025-04-10T14:55"
 }
 ```
 🔹 POST /pedido
@@ -42,15 +42,15 @@ Registra um novo pedido de cliente.
 Corpo da requisição (application/json):
 ```bash
 {
-  "cliente": "Brendo",
-  "itens": "Picanha"
+"cliente": "Brendo",
+"itens": "Picanha"
 }
 ```
 Resposta de sucesso (200 OK):
 ```bash
 {
-      "cliente": "Brendo ",
-      "itens": "Picanha"
+"cliente": "Brendo ",
+"itens": "Picanha"
 }
 ```
 🔹 GET /resumo
@@ -100,12 +100,12 @@ Frontend simples em HTML e CSS
    ```
 3. Configure o ambiente de nuvem
  ```bash
-  Criar uma conta no Google Cloud Platform (GCP)
-  Criar um projeto no GCP
-  Ativar a API de Compute Engine e Cloud Run
-  Criar uma chave de conta de serviço com permissões adequadas (em formato JSON)
-  Salvar essa chave localmente e usá-la no Terraform
-```
+ Criar uma conta no Google Cloud Platform (GCP)
+ Criar um projeto no GCP
+ Ativar a API de Compute Engine e Cloud Run
+ Criar uma chave de conta de serviço com permissões adequadas (em formato JSON)
+ Salvar essa chave localmente e usá-la no Terraform
+ ```
 4. Instale o Terraform
    ```bash
    Instale o Terraform seguindo as instruções do site oficial:
@@ -114,8 +114,8 @@ Frontend simples em HTML e CSS
 5. Execute o Terraform
 Dentro da pasta do projeto (ou da pasta onde está o código Terraform):
   ```bash
-    terraform init
-    terraform apply
+  terraform init
+  terraform apply
   ```
 ⚠️ Atenção! Antes de executar o Terraform:
 Altere no repositório GitHub (ou em seu arquivo de configuração .tf) o caminho da chave de segurança gerada no Google Cloud.
