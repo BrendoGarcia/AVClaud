@@ -80,6 +80,7 @@ Resposta de sucesso (200 OK):
 ```
 
 🧰 Tecnologias utilizadas
+```bash
 Node.js
 
 Deploy no Google Cloud
@@ -87,7 +88,7 @@ Deploy no Google Cloud
 Controle de versionamento com GitHub e automações com GitHub Actions + Terraform
 
 Frontend simples em HTML e CSS
-
+```
 🚀 Como executar o projeto
 1. Clone o repositório
    ```bash
