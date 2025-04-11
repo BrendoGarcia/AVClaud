@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 
 app.use(express.json());
 
-// Servir arquivos estáticos da pasta 'public'
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 let reservas = [];
